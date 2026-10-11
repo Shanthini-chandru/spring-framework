@@ -14,12 +14,11 @@ public class GamingConfig {
         var game = new PacMan();
         return game;
     }
-    //var game = new SuperContra();
-  //  var game = new PacMan(); // 1. object Creation
-    //var game = new MarioGame();
-    //var gameRunner = new GameRunner(game);
-    //2. object Creation + wiring of dependency
-    //Game is a dependency of GameRunner Class
-    // here we are injecting game into GR class
-         // gameRunner.run();
+
+    @Bean
+    public GameRunner gameRunner(GamingConsole game){
+        var gameRunner = new GameRunner(game);
+        return gameRunner;
+    }
+
 }
