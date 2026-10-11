@@ -1,0 +1,48 @@
+### --- IDE Specific Files (IntelliJ IDEA, Eclipse, VS Code) ---
+.idea/
+*.iml
+*.iws
+*.ipr
+out/
+.classpath
+.project
+.settings/
+.factorypath
+
+### --- Build Tool Outputs (Maven / Gradle) ---
+# Maven
+target/
+pom.xml.tag
+pom.xml.releaseBackup
+pom.xml.next
+pom.xml.versionsBackup
+release.properties
+dependency-reduced-pom.xml
+buildNumber.properties
+.mvn/timing.properties
+.mvn/wrapper/.maven-wrapper.jar
+
+# Gradle
+build/
+.gradle/
+/buildSrc/build/
+/gradle/wrapper/gradle-wrapper.jar
+
+### --- Secrets & Local Environment Configs ---
+# Ignore files containing actual passwords and tokens
+application-local.properties
+application-local.yml
+application-dev.properties
+application-dev.yml
+.env
+.env.local
+
+### --- Logs and Temporary Files ---
+*.log
+logs/
+temp/
+tmp/
+
+### --- Operating System Files ---
+.DS_Store
+Thumbs.db
