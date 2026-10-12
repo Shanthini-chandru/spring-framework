@@ -13,12 +13,6 @@ import org.springframework.context.annotation.Configuration;
 public class App03GamingSpringBeans {
 
 
-    @Bean
-    public GameRunner gameRunner(GamingConsole game){
-        var gameRunner = new GameRunner(game);
-        return gameRunner;
-    }
-
     public static void main(String[] args) {
 
         try (var context =
