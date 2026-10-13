@@ -26,6 +26,13 @@
 			<artifactId>spring-boot-starter</artifactId>
 		</dependency>
 
+		<!-- Jakarta CDI -->
+		<dependency>
+			<groupId>jakarta.inject</groupId>
+			<artifactId>jakarta.inject-api</artifactId>
+			<version>2.0.1</version>
+		</dependency>
+
 		<!-- Spring Boot Test Starter -->
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
